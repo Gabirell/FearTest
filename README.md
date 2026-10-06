@@ -1,17 +1,33 @@
-# myfirstscene
+# FearTest
 
-A new Flutter project.
+Third-person horror prototype built with Flutter Scene.
 
-## Getting Started
+## Local project
 
-This project is a starting point for a Flutter application.
+`/Volumes/Gabriel/Applications/FScene/projects/myfirstscene`
 
-A few resources to get you started if this is your first Flutter project:
+## Current prototype
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Room A → Corridor → Room B
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The project is intentionally starting with procedural primitive geometry so the scene graph, materials, camera, player controller, collision, and lighting can be learned and validated before adding imported assets.
+
+## Toolchain
+
+- Flutter
+- Dart
+- flutter_scene
+- macOS
+- Xcode
+
+## Development goals
+
+- Third-person player controller
+- Third-person camera boom
+- Collision and physics
+- Procedural environment blockout
+- Horror lighting and atmosphere
+- Doors and interaction
+- GLB assets
+- Animation and audio
+- Horror gameplay systems
